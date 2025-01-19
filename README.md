@@ -16,19 +16,14 @@ This project uses [`pnpm`](https://pnpm.io/) to manage dependencies, and [`corep
 
 1. `corepack enable pnpm` to enable corepack pnpm management support.
 2. `corepack install` to install `pnpm`
+3. `pnpm install` is the final step!
 
 ## Getting Started
 
 First, run the development server:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
 pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
