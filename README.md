@@ -1,5 +1,22 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Installation
+
+### NodeJS
+
+This project uses [`nvm`](https://github.com/nvm-sh/nvm) to manage NodeJS runtimes. Follow their installation instructions.
+
+Then run for the first time: `nvm install` to ensure that version of node is setup for the project directory.
+
+and only `nvm use` each time thereafter.
+
+### Dependencies
+
+This project uses [`pnpm`](https://pnpm.io/) to manage dependencies, and [`corepack`](https://pnpm.io/installation#using-corepack) to manage `pnpm` versions.
+
+1. `corepack enable pnpm` to enable corepack pnpm management support.
+2. `corepack install` to install `pnpm`
+
 ## Getting Started
 
 First, run the development server:
